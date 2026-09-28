@@ -357,6 +357,31 @@ Completed
 - `android/app/src/main/AndroidManifest.xml`
 - `build/app/outputs/flutter-apk/app-debug.apk`
 
+### [2026-09-28 10:12] — Questionnaire documentation
+
+**Type:** `documentation`
+
+**Context**
+
+The user requested a Markdown questionnaire answered according to the implementation history in `BUILD_LOG.md`.
+
+**Action / Decision**
+
+Created `QUESTIONNAIRE.md` with factual answers covering architecture, state management, SQLite persistence, screens, navigation, filtering, due dates, notifications, dependencies, validation, encountered problems, and remaining limitations.
+
+**Result**
+
+The project now includes a standalone summary suitable for reviewing the implementation decisions and MVP status without replacing the chronological development log.
+
+**Current Status**
+
+Completed
+
+**Relevant Files**
+
+- `QUESTIONNAIRE.md`
+- `BUILD_LOG.md`
+
 ### [2026-09-27 18:04] — Git history organized by development cycles
 
 **Type:** `milestone`
